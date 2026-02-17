@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    header {
+    text-align: center;
+    padding: 20px;
+    }
+
+    header h1 {
+    margin-bottom: 15px;
+}
+
+body{
+    background-color: blanchedalmond;
+
+}
+
+
+.hero {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin: 40px 0;
+}
+    .hero h1 {
+    margin-bottom: 15px;
+}
+
+.hero h2{
+    margin-bottom: 15px;
+}
+
+.produtos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin: 40px 0;
+            }
+.produtos.reverse{
+    flex-direction: row-reverse;
+}
+
+
+
+
+.info {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-size: 25px;
+            }
+
+            
+.produtos img {
+                width: 200px;
+                border: 5px solid #000;
+                border-radius: 20px;
+            }
+
+
+           .container-beneficios {
+    display: flex;                
+    justify-content: center; 
+    gap: 30px;                    
+    margin: 40px 0;
+    margin-top: 100px;
+}
+
+.beneficio img {
+                width: 100%;
+                border: 5px solid #000;
+                border-radius: 20px;
+}
+
+.beneficio{
+    text-align: center;
+    max-width: 200px;
+}
+           
+
+.btn{
+                width: fit-content;
+                padding: 10px 18px;
+                background-color: red;
+                color: bisque;
+                text-decoration: none;
+                border-radius: 10px;
+                font-weight: bold;
+            }
+            .btn:hover{
+                background-color: green;
+            }
+
+            footer{
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+
+            footer p {
+                margin-bottom: 50px;
+            }
+
+            .aviso{
+                font-size: 13px;
+                opacity: 0.6;
+                margin-top: 15px;
+            }
+            
+@media (max-width: 768px){
+            }
