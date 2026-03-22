@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Doce Lua - Os melhores doces artesanais</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>  
+
+    <body>
+        <header>
+            <h1> DOCE LUA</h1>
+            <h2> SABOR DE CASA EM CADA MORDIDA </h2>
+        </header>
+
+        <main>
+
+            <section class="hero">
+                
+                <h1>Os melhores doces artesanais da região</h1>
+                <h2>Quem prova, nunca mais esquece do nosso sabor</h2>
+                <a href="https://wa.me/5511961104153" target="_blank" class="btn"> NOSSO WHATSAPP</a>
+                <a href="https://wa.me/5511961104153" target="_blank"  class="btn">Falar no WhatsApp</a>
+            </section>
+
+            <section class="produto">
+                <img src="img/donuts.jpeg" alt="Foto de donuts">
+            <div class="info">
+            <h1> <b>Donuts artesanais</b>.</h1>
+            <p> Os melhores e mais deliciosos donuts de diversos sabores.</p>
+                <input class="nome"  placeholder="Nos diga seu nome">
+                <input class="quantidade"  placeholder="Quantidade">
+            <button class="btn-pedir" onclick="pedirProduto('Donuts',  this)">Encomendar Donuts</button>
+            </div>
+            </section>
+
+            <section class="produto reverse">
+                <img src="img/brigadeiros.jpeg" alt="Foto de brigadeiros">
+            <div class="info">
+            <h3> <b>Brigadeiros Gourmet</b>.</h3>
+            <p> Feitos com ingredientes premium selecionados. </p>
+                <input class="nome" placeholder="Nos diga seu nome">
+                <input class="quantidade" placeholder="Quantidade">
+            <button class="btn-pedir" onclick="pedirProduto('Brigadeiros', this)">Encomendar Brigadeiros</button>
+            </div>
+            </section>
+
+            <section class="produto">
+                <img src="img/trufas.jpeg" alt="Foto de trufas">
+            <div class="info">
+            <h3> <b>Trufas Caseiras</b>.</h3>
+            <p> Produzidas com a mais alta excelência para satisfazer os mais sofisticados paladares. </p>
+                <input class="nome" placeholder="Nos diga seu nome">
+                <input class="quantidade" placeholder="Quantidade">
+            <button class="btn-pedir" onclick="pedirProduto('Trufas', this)">Encomendar Trufas</button>
+            </div>
+            </section>
+
+            <section class="produto reverse">
+                <img src="img/Bolo-de-bombom.jpeg" alt="Bolo de bombom de morango">
+            <div class="info">
+            <h3> <b>Bolo de bombom sabor morango</b>.</h3>
+            <p> Sobremesa com muuuuuito recheio e sabor para os apaixonados por chocolate e morango </p>
+            <input class="nome" placeholder="Nos diga seu nome">
+                <input class="quantidade" placeholder="Quantidade">
+            <button class="btn-pedir" onclick="pedirProduto('Bolo de bombom', this)">Encomendar Bolo</button>
+            </div>
+            </section>
+
+            <section class="container-beneficios">
+                <div class="beneficio">
+                <img src="img/cliente-satisfeito.jpeg" alt="Imagem que indica satisfação de clientes">
+                <p>Mais de 300 clientes satisfeitos</p>
+                </div>
+
+                <div class="beneficio">
+                <img src="img/entregarapida.jpeg" alt="Imagem que sugere velocidade na entrega">
+                <p>Entrega ágil e facilitada, para melhor atende-lo</p>
+               </div>
+
+               <div class="beneficio">
+                <img src="img/doce-personalizado.jpeg" alt="Imagem mostrando doces artesanais personalizados">
+                <p>Doces personalizados para atender a todas ocasiões</p>
+               </div>
+            </section>
+
+        </main>
+        <footer id="contato">
+            <p>Quer algo a mais? Clique no link e fale com a gente</p>
+            <a href="https://wa.me/5511961104153" target="_blank"  id="btn-encomenda" class="btn"> Encomendas personalizadas aqui</a>
+
+            <p class="aviso"> Desenvolvido por <a href="https://wa.me/5511961104153" target="_blank"> Renan Rodrigues</a>
+            </p>
+        </footer>
+        <script src="script.js"></script>
+        </body>
