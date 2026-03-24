@@ -12,6 +12,7 @@ main{
     header {
     text-align: center;
     padding: 20px;
+    
     }
 
     header h1 {
@@ -19,19 +20,21 @@ main{
 }
 
 body{
-    background: linear-gradient(180deg, #fff5f5, #ffe3e3);
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    backface-visibility: visible;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
     font-family: Arial, sans-serif;
+    
 }
 
 
 .hero {
                 text-align: center;
-                gap: 50px;
-                margin: 40px 0;
-                background: #fff;
-                padding: 40px;
-                border-radius: 20px;
-                box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+                
+                
 }
     .hero h1 {
     margin-bottom: 15px;
@@ -50,7 +53,7 @@ body{
     padding: 20px;
     max-width: 800px;
 
-    background-color: #fff;
+    background-color: #ab5c16;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
@@ -91,6 +94,8 @@ body{
                 width: 100%;
                 border: 5px solid #000;
                 border-radius: 20px;
+                height: 180px;
+                object-fit: cover;
 }
 
 .beneficio{
