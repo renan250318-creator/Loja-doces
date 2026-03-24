@@ -204,7 +204,7 @@ p{
 @media (max-width: 600px) {
 
     body{
-        background-image: ulr('img/background.jpg')
+        background-image: url('img/background.jpg')
     }
     .produto{
         flex-direction: column;
