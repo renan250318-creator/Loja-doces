@@ -24,8 +24,7 @@ body{
     background-size: cover;
     backface-visibility: visible;
     background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     font-family: Arial, sans-serif;
     
 }
