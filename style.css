@@ -19,7 +19,7 @@ main{
     margin-bottom: 15px;
 }
 
-body{
+html{
     background-image: url('/Loja-doces/img/background.jpg');
     background-size: cover;
     backface-visibility: visible;
