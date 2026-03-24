@@ -20,7 +20,7 @@ main{
 }
 
 body{
-    background-image: url('img/background.jpg');
+    background-image: url('/Loja-doces/img/background.jpg');
     background-size: cover;
     backface-visibility: visible;
     background-position: center;
@@ -202,11 +202,7 @@ p{
 }
             
 @media (max-width: 600px) {
-
-    body{
-    background-image: url('img/background.jpg');
-    }
-    .produto{
+.produto{
         flex-direction: column;
         text-align: center;
     }
