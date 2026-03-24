@@ -202,7 +202,9 @@ p{
 }
             
 @media (max-width: 600px) {
-.produto{
+  body{  background-image: url('/Loja-doces/img/background.jpg');
+      }
+       .produto{
         flex-direction: column;
         text-align: center;
     }
