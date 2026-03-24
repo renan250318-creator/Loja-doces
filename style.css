@@ -24,6 +24,7 @@ body{
     background-size: cover;
     backface-visibility: visible;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     font-family: Arial, sans-serif;
     
@@ -203,7 +204,7 @@ p{
 @media (max-width: 600px) {
 
     body{
-        background-image: url('img/background.jpg')
+    background-image: url('img/background.jpg');
     }
     .produto{
         flex-direction: column;
