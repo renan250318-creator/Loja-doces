@@ -18,7 +18,9 @@ main{
     header h1 {
     margin-bottom: 15px;
 }
-
+body {
+    background: none;
+}
 html{
     background-image: url('/Loja-doces/img/background.jpg');
     background-size: cover;
