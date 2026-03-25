@@ -18,8 +18,9 @@ main{
     header h1 {
     margin-bottom: 15px;
 }
+
 body{
-    background-image: url('img/background.jpg');
+    background-image: url('img/brigadeiros.jpeg');
     background-size: cover;
     backface-visibility: visible;
     background-position: center;
@@ -171,7 +172,7 @@ input::placeholder {
     width: 100%;
     font-size: 16px;
     letter-spacing: 0.5px;
-    background-color: #e63946;
+    background-color: #0c0b0b;
     color: white;
     padding: 12px;
     border: none;
@@ -195,9 +196,28 @@ h1{
     margin-bottom: 5px;
 }
 p{
-    font-size: 14px;
-    color: #555;
+    font-size: 20px;
+    color: #141313;
 }
             
+@media (max-width: 600px) {
+    .produto{
+        flex-direction: column;
+        text-align: center;
+    }
+    .produto img{
+        width: 100%;
+        max-width: 250px;
+    }
+    .produto.reverse{
+        flex-direction: column;
+    }
 
-
+    .info{
+        width: 100%;
+    }
+    .container-beneficios{
+        flex-direction: column;
+        align-items: center;
+    }
+}
