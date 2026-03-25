@@ -5,9 +5,9 @@
 }
 
 main{
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
+    max-width: 0px;
+    margin: none;
+    padding: 0px;
 }
     header {
     text-align: center;
