@@ -199,26 +199,5 @@ p{
     color: #555;
 }
             
-@media (max-width: 1000px) {
-  body{  background-image: url('/Loja-doces/img/background.jpg');
-      }
-       .produto{
-        flex-direction: column;
-        text-align: center;
-    }
-    .produto img{
-        width: 100%;
-        max-width: 250px;
-    }
-    .produto.reverse{
-        flex-direction: column;
-    }
 
-    .info{
-        width: 100%;
-    }
-    .container-beneficios{
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
