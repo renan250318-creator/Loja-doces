@@ -19,15 +19,7 @@ main{
     margin-bottom: 15px;
 }
 body {
-    background: none;
-}
-html{
-    background-image: url('/Loja-doces/img/background.jpg');
-    background-size: cover;
-    backface-visibility: visible;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
+
     font-family: Arial, sans-serif;
     
 }
@@ -201,6 +193,15 @@ h1{
 p{
     font-size: 14px;
     color: #555;
+}
+
+body::before{
+    content:"";
+    position: fixed;
+    inset: 0;
+    background: url:('/Loja-doces/img/background.jpg') no-repeat center/cover;
+    z-index: -1;
+    
 }
             
 @media (max-width: 600px) {
