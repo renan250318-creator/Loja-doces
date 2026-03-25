@@ -5,9 +5,9 @@
 }
 
 main{
-    max-width: 0px;
-    margin: none;
-    padding: 0px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
 }
     header {
     text-align: center;
@@ -199,7 +199,7 @@ p{
     color: #555;
 }
             
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   body{  background-image: url('/Loja-doces/img/background.jpg');
       }
        .produto{
