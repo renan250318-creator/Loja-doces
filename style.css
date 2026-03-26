@@ -20,13 +20,14 @@ main{
 }
 
 body{
-    background-image: url('img/brigadeiros.jpeg');
+    background-image: url('img/parede.jpg');
     background-size: cover;
     backface-visibility: visible;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
-    font-family: Arial, sans-serif;   
+    font-family: Arial, sans-serif; 
+     
 }
 
 
